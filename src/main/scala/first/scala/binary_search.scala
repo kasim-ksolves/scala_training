@@ -1,5 +1,6 @@
 package first.scala
 
+//This is a binary search algorithm
 object binary_search extends App{
     import scala.util.control.Breaks._
     val arr = Array(2,3,4,10,40)
