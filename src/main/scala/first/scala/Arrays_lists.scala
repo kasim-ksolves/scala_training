@@ -7,6 +7,9 @@ val arr = Array("kasim","asim","sheikh","sheikh")
   arr(2) = "Asim"
   println(arr(0))
   val k = arr.slice(0,2)
+  for(i <- k){
+    println(i)
+  }
 println(k)
   println(list)
 
