@@ -3,7 +3,7 @@ import scala.util.control.Breaks._
 import scala.collection.mutable
 
 object Data_types_and_variables extends App{
-
+//some comment from external source
   val a1 = true
   val a2 = 126
   val a3:Byte=126
