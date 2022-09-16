@@ -7,7 +7,7 @@ object random_char extends App{
     for (i <- 1 to 10) {
       val x = (math.random * (91-65) + 65).toInt //gives a range between 65 to 90
       val y = r.nextPrintableChar() // will give all characters including characters
-      p = p+(x).toChar
+      p = p+(x).toChar //this line convert a number into its corrosponding ascii character.
       q = q+y
     }
   println(p)
